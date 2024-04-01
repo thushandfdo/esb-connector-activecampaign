@@ -1,0 +1,103 @@
+{
+    "name": "activecampaign",
+    "current-version": "1.0.0",
+    "operations": [
+        {
+            "name": "init",
+            "description": "Config operation.",
+            "isHidden": false
+        },
+        {
+            "name": "createContact",
+            "description": "Add a new contact to the system.",
+            "isHidden": false
+        },
+        {
+            "name": "getContactByEmail",
+            "description": "View only one contact details by searching for their email address.",
+            "isHidden": false
+        },
+        {
+            "name": "listContacts",
+            "description": "View multiple (a list of) contacts.",
+            "isHidden": false
+        },
+        {
+            "name": "updateContact",
+            "description": "Edit an existing contact in the system.",
+            "isHidden": false
+        },
+        {
+            "name": "createCampaign",
+            "description": "Create and send a new campaign immediately or scheduled for the future.",
+            "isHidden": false
+        },
+        {
+            "name": "listCampaigns",
+            "description": "View campaign settings and information.",
+            "isHidden": false
+        },
+        {
+            "name": "getCampaignClickers",
+            "description": "View all links and click data for a specific campaign.",
+            "isHidden": false
+        },
+        {
+            "name": "createDeal",
+            "description": "Add a new deal to the system.",
+            "isHidden": false
+        },
+        {
+            "name": "getDeal",
+            "description": "View deal details.",
+            "isHidden": false
+        },
+        {
+            "name": "listDeals",
+            "description": "Retrieve list of deals.",
+            "isHidden": false
+        },
+        {
+            "name": "createDealStage",
+            "description": "Add a new deal stage.",
+            "isHidden": false
+        },
+        {
+            "name": "updateDeal",
+            "description": "Update a existing deal.",
+            "isHidden": false
+        },
+        {
+            "name": "listDealStages",
+            "description": "Retrieve list of deal stages.",
+            "isHidden": false
+        },
+        {
+            "name": "createMailingList",
+            "description": "Add a new mailing list.",
+            "isHidden": false
+        },
+        {
+            "name": "listMailingLists",
+            "description": "View multiple mailing lists in the system.",
+            "isHidden": false
+        },
+        {
+            "name": "createMessage",
+            "description": "Add a new email message to the system.",
+            "isHidden": false
+        },
+        {
+            "name": "listMessages",
+            "description": "View many email messages with a single API call.",
+            "isHidden": false
+        },
+        {
+            "name": "getMessageById",
+            "description": "View a email message data.",
+            "isHidden": false
+        }
+    ],
+    "description": "WSO2 Connector for ActiveCampaign",
+    "icon": "https://raw.githubusercontent.com/wso2-extensions/esb-connector-activecampaign/master/src/main/resources/icon/icon-large.gif"
+}
